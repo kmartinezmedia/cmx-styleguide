@@ -9,6 +9,7 @@ cd styleguide
 
 Install the dependencies
 ```
+defaults write com.bohemiancoding.sketch3.plist AlwaysReloadScript -bool YES
 npm install
 ```
 
