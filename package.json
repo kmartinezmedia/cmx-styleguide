@@ -1,5 +1,5 @@
 {
-  "name": "styleguide",
+  "name": "celmatix styleguide",
   "private": true,
   "skpm": {
     "main": "styleguide.sketchplugin",
@@ -12,7 +12,7 @@
     "render:once": "skpm-build --run",
     "postinstall": "npm link cmx-components && npm run build && skpm-link"
   },
-  "author": "Jon Gold <jon.gold@airbnb.com>",
+  "author": "Katherine Martinez <k.martinez@celmatix.com>",
   "license": "MIT",
   "dependencies": {
     "chroma-js": "^1.2.2",

@@ -3,7 +3,6 @@ import { View, Text } from "react-sketchapp";
 import Label from "./Label";
 
 const TypeSpecimen = ({ name, style }) => {
-  console.log(name);
   return (
     <View
       name={`TypeSpecimen-${name}`}
