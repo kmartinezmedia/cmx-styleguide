@@ -5,7 +5,7 @@ import AccessibilityBadge from "./AccessibilityBadge";
 import Label from "./Label";
 import { Text } from "react-sketchapp";
 
-const SWATCH_WIDTH = 100;
+const SWATCH_WIDTH = 300;
 
 const Swatch = ({ color, name }) => (
   <View name={name} style={{ marginBottom: 48, marginRight: 48 }}>

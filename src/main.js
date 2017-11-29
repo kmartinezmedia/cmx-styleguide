@@ -37,13 +37,6 @@ export default context => {
   const Document = () => {
     return (
       <Container>
-        {artboardSizes.map((size, i) => {
-          return (
-            <Section title={`${artboardNames[i]}`}>
-              <Page key={i} width={size} />
-            </Section>
-          );
-        })}
         <Section title="Type Styles">
           {Object.keys(theme.sketchFontStyles).map(name => (
             <TypeSpecimen name={name} style={TextStyles.get(name)} />
