@@ -14,7 +14,7 @@ const Palette = ({ colors }) => (
     }}
   >
     {Object.keys(colors).map(name => (
-      <Swatch color={colors[name]} name={name} />
+      <Swatch color={colors[name]} name={name} key={name} />
     ))}
   </View>
 );
